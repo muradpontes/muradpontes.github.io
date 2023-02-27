@@ -1,10 +1,11 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>murad</title>
-	<link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+</head>
 
-    <style>
+<header>
+	<style>
         @font-face {
           font-family: 'JMH Typewriter-Thin';
           src: url('static/fonts/JMH Typewriter-Thin.ttf');
@@ -17,29 +18,94 @@
           font-weight: 100;
         }
       </style>
+</header>
 
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html">home</a></li>
-                <li><a href="projects.html">projetos</a></li>
-				<li><a href="about.html">sobre</a></li>
-				<li><a href="contact.html">contato</a></li>
-			</ul>
-		</nav>
-	</header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
 
-	<main>
-		<h1>projetos</h1>
-		<p>aqui você pode ver todos os projetos que desenvolvi ou estão em desenvolvimento.</p>
-	</main>
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="display-4 mb-3">projetos</h1>
+        <p class="lead mb-5">alguns dos projetos que desenvolvi</p>
+		
+      </div>
+    </div>
+  </div>
 
-	<footer>
-		<p>&copy; 2023 murad. Todos os direitos reservados.</p>
-	</footer>
+  <div class="container">
+	<div class="album py-5 bg-light">
+	  <div class="container">
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-center">
+  
+		  <div class="col">
+			<div class="card shadow-sm">
+			  <img src="/static/img/botfactory2.png" alt="BotFactory" style="object-fit: cover; width: 300px; height: 300px;" class="card-img-top">
+			  <div class="card-body">
+				<h5 class="card-title">botFactory</h5>
+				<p class="card-text">aplicativo web para criação e manipulação de bots para o twitter utilizando da API com python e flask</p>
+				<div class="d-flex justify-content-between align-items-center">
+				  <div class="btn-group">
+					  <a href="https://github.com/muradpontes/botFactory_scrn">
+					<button type="card-button" class="btn btn-sm btn-outline-secondary">ver</button>
+					  </a>
+				</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+  
+		  <div class="col">
+			<div class="card shadow-sm">
+			  <img src="/static/img/easystat2.png" alt="EasyStat" style="object-fit: cover; width: 300px; height: 300px;" class="card-img-top">
+			  <div class="card-body">
+				<h5 class="card-title">easyStat</h5>
+				<p class="card-text">aplicativo web para análises estatísticas feito com python, flask e R</p>
+				<div class="d-flex justify-content-between align-items-center">
+				  <div class="btn-group">
+					  <a href="https://github.com/muradpontes/easyStat-screenshots">
+					<button type="card-button" class="btn btn-sm btn-outline-secondary">ver</button>
+				  </a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+  
+		  
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="divider"></div>
+  <footer class="footer">
+    <div class="container">
+      <p class="mb-0">feito com 🤍</p>
+    </div>
+  </footer>
 
-	<script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
+  
+  

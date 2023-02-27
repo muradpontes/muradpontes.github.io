@@ -1,10 +1,11 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>murad</title>
-	<link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+</head>
 
-    <style>
+<header>
+	<style>
         @font-face {
           font-family: 'JMH Typewriter-Thin';
           src: url('static/fonts/JMH Typewriter-Thin.ttf');
@@ -17,29 +18,53 @@
           font-weight: 100;
         }
       </style>
+</header>
 
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html">home</a></li>
-                <li><a href="projects.html">projetos</a></li>
-				<li><a href="about.html">sobre</a></li>
-				<li><a href="contact.html">contato</a></li>
-			</ul>
-		</nav>
-	</header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
 
-	<main>
-		<h1>contato</h1>
-		<p>aqui estão alguns meios de contato:</p>
-	</main>
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="display-4 mb-3">contato</h1>
+        <p class="lead mb-5">você pode entrar em contato comigo através desses meios:</p>
+		<p>
+			<a href="mailto:muradsp20@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="gmail"></a>
+			<a href="https://www.linkedin.com/in/muradpontes/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></p>
+			<a href="https://github.com/muradpontes"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+			<a href="https://t.me/murwd"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+		</div>
+    </div>
+  </div>
 
-	<footer>
-		<p>&copy; 2023 murad. Todos os direitos reservados.</p>
-	</footer>
+  <footer class="footer">
+    <div class="container">
+      <p class="mb-0">feito com 🤍</p>
+    </div>
+  </footer>
 
-	<script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
+  
+  
